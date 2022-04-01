@@ -1,0 +1,30 @@
+{
+    "name": "thenlabs/datetime-wrapper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andy Daniel Navarro Taño",
+            "email": "andaniel05@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.2",
+        "thenlabs/pyramidal-tests": "2.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "ThenLabs\\DateTimeWrapper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ThenLabs\\DateTimeWrapper\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "fix": "./vendor/bin/php-cs-fixer fix",
+        "test": "./vendor/bin/pyramidal"
+    }
+}
